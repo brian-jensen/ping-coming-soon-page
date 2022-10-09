@@ -12,7 +12,7 @@ form.addEventListener('submit', e => {
   } else {
     input.style.borderColor = 'hsl(143.9, 100%, 66.5%)';
     input.nextElementSibling.style.color = 'hsl(143.9, 100%, 66.5%)';
-    input.nextElementSibling.textContent = 'Submission request sent!';
+    input.nextElementSibling.textContent = 'Subscription request sent!';
     input.value = '';
     input.blur();
   }

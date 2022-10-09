@@ -60,21 +60,21 @@ h1 {
   margin-top: 32px;
   margin-bottom: 15px;
   font-weight: 300;
-  font-size: 22px;
-  line-height: 32px;
-  color: #969696;
+  font-size: 1.375rem;
+  line-height: 2rem;
+  color: hsl(0, 0%, 58.8%);
 }
 
 h1 strong {
   font-weight: 700;
-  color: #15202A;
+  color: hsl(208.6, 33.3%, 12.4%);
 }
 
 section p {
   font-weight: 300;
-  font-size: 12px;
-  line-height: 15px;
-  color: #15202A;
+  font-size: 0.75rem;
+  line-height: 0.9375rem;
+  color: hsl(208.6, 33.3%, 12.4%);
 }
 
 form {
@@ -88,39 +88,39 @@ form {
 input {
   padding: 10px 32px;
   font-weight: 300;
-  font-size: 12px;
-  line-height: 20px;
-  color: #15202A;
-  border: 1px solid #C2D3FF;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  color: hsl(208.6, 33.3%, 12.4%);
+  border: 1px solid hsl(223.3, 100%, 88%);
   box-shadow: 0px 0px 7px 3px hsla(0, 0%, 0%, 0.01);
   border-radius: 28px;
 }
 
 input::placeholder {
   font-weight: 300;
-  font-size: 12px;
-  line-height: 20px;
-  color: #B8C7ED;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  color: hsl(223, 59.6%, 82.5%);
 }
 
 span {
   margin: 4px 0;
   font-weight: 400;
-  font-size: 10px;
-  line-height: 20px;
+  font-size: 0.625rem;
+  line-height: 1.25rem;
   font-style: italic;
   letter-spacing: 0.125px;
-  color: #FF5466;
+  color: hsl(353.7, 100%, 66.5%);
 }
 
 button {
   height: 40px;
   margin-top: 10px;
   font-weight: 600;
-  font-size: 12px;
-  line-height: 16px;
+  font-size: 0.75rem;
+  line-height: 1rem;
   color: var(--color-white);
-  background: #4C7BF3;
+  background: hsl(223.1, 87.4%, 62.5%);
   box-shadow: 0px 5px 10px 2px hsla(223.1, 87.4%, 62.5%, 0.2);
   border-radius: 28px;
   cursor: pointer;
@@ -155,13 +155,13 @@ a {
   width: 32px;
   height: 32px;
   color: var(--color-white);
-  border: 0.918357px solid hsla(223.1, 87.4%, 62.5%, 0.2);
+  border: 0.0574rem solid hsla(223.1, 87.4%, 62.5%, 0.2);
   border-radius: 50%;
 }
 
 @media (hover: hover) {
   a:hover {
-    background: #4C7BF3;
+    background: hsl(223.1, 87.4%, 62.5%);
     transition: background 0.5s ease-in-out;
   }
 
@@ -189,9 +189,9 @@ footer {
 
 footer p {
   font-weight: 300;
-  font-size: 10px;
-  line-height: 12px;
-  color: #969696;
+  font-size: 0.625rem;
+  line-height: 0.75rem;
+  color: hsl(0, 0%, 58.8%);
 }
 
 @media (min-width: 40em) {
@@ -207,13 +207,13 @@ footer p {
   h1 {
     margin-top: 40px;
     margin-bottom: 16px;
-    font-size: 48px;
-    line-height: 60px;
+    font-size: 3rem;
+    line-height: 3.75rem;
   }
 
   section p {
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
   }
 
   form {
@@ -226,16 +226,16 @@ footer p {
   }
 
   input {
-    height: 56px;
-    flex-basis: 421px;
+    height: 3.5rem;
+    flex-basis: 26.3125rem;
     padding-left: 30px;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 1rem;
+    line-height: 1.25rem;
   }
 
   input::placeholder {
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 1rem;
+    line-height: 1.25rem;
   }
 
   span {
@@ -244,17 +244,17 @@ footer p {
     margin-top: 6px;
     text-align: left;
     padding-left: 30px;
-    font-size: 12px;
-    line-height: 20px;
-    letter-spacing: 0.15px;
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+    letter-spacing: 0.0094rem;
   }
 
   button {
     height: 56px;
     margin-top: 0;
-    flex-basis: 200px;
-    font-size: 16px;
-    line-height: 19px;
+    flex-basis: 12.5rem;
+    font-size: 1rem;
+    line-height: 1.1875rem;
   }
 
   .background {
@@ -266,7 +266,7 @@ footer p {
   }
 
   footer p {
-    font-size: 12px;
-    line-height: 15px;
+    font-size: 0.75rem;
+    line-height: 0.9375rem;
   }
 }
